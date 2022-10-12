@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<!-- generated on 06/15/22 11:24:55 by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\briia\sumo\TESIS\ibarraCentro.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\briia\sumo\TESIS\ibarraCentro.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="C:\Users\briia\sumo\TESIS\ibarraCentro.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="51962391#0 51962391#1 51962391#2 51962391#3 51962391#4 51962391#5 51962391#6 51962391#7 51962391#8 51962391#9 51962391#10 51962391#11" color="yellow" id="route_linea03_1"/>
+    <route edges="51962504#1 51962504#2 51962540#9 408937420#0 408937420#1 408937420#2 51962393#0" color="yellow" id="route_linea03_2"/>
+    <route edges="385749386#10 51962540#3 51962540#4 51962540#5 51962540#6 51962540#7 51962391#10" color="yellow" id="route_linea04"/>
+    <route edges="51962540#3 51962540#4 51962540#5 51962540#6 51962540#7 51962540#8 51962504#3 51962504#4 51962504#5 51962504#6 51962504#7 51962504#8 51961455#8 51961455#9 51961455#10 51961455#11 53960644#1" color="yellow" id="route_linea10"/>
+    <route edges="282807212#3 282807212#4 282807212#5 282807212#6 282807212#7 39495337#0 39495337#1 39495337#2" color="yellow" id="route_linea11"/>
+    <route edges="51962391#0 51962391#1 51962391#2 51962391#3 51962391#4 51962391#5 51962391#6 51962391#7 51962391#8 51962391#9 51962391#10 51962391#11" color="yellow" id="route_linea12"/>
+    <route edges="51962504#1 51962504#2 51962504#3 51962504#4 51962504#5 51962504#6 51962504#7 51962504#8 51961455#8 51961455#9 51961455#10" color="yellow" id="route_linea13"/>
+    <route edges="282807212#3 282807212#4 282807212#5 282807212#6 282807212#7 39495337#0 39495337#1 39495337#2" color="yellow" id="route_linea14"/>
+    <route edges="51962391#0 51962391#1 51962391#2 51962391#3 51962391#4 51962391#5 51962391#6 51962391#7 51962391#8 51962391#9 51962391#10 51962391#11" color="yellow" id="route_linea15"/>
+    <route edges="51961869#1 51961869#2 51961869#3 51961869#4 51961869#5 51961869#6 51961869#7 51961869#8 51961869#9 51961869#10 53960640#0 53960640#1 53960640#2 53960640#3 53960640#4 53960640#5 53960640#6" color="yellow" id="route_linea16"/>
+    <route edges="51962391#0 51962391#1 51962391#2 51962391#3 51962391#4 51962391#5 51962391#6 51962391#7 51962391#8 51962391#9 51962391#10 51962391#11" color="yellow" id="route_linea19_1"/>
+    <route edges="51962504#1 51962504#2 51962504#3 51962504#4 51962504#5 51962504#6 51962504#7 51962504#8 51961455#8 51961455#9 51961455#10" color="yellow" id="route_linea19_2"/>
+    <flow id="flow_linea03_1" begin="0.00" color="blue" from="51962391#0" to="51962391#11" via="51962391#2 51962391#3 51962391#4 51962391#5 51962391#6 51962391#7 51962391#8 51962391#9 51962391#10" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea03_2" begin="0.00" color="blue" from="51962504#1" to="51962393#0" via="51962504#2 51962540#9 408937420#1 408937420#2" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea04" begin="0.00" color="blue" from="385749386#10" to="51962391#11" via="51962540#3 51962540#4 51962540#5 51962540#6 51962540#7 51962391#10" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea10" begin="0.00" color="blue" from="51962540#3" to="53960644#1" via="51962540#4 51962540#5 51962540#6 51962540#7 51962540#8 51962504#3 51962504#4 51962504#5 51962504#6 51962504#7 51962504#8 51961455#8 51961455#9 51961455#10" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea11" begin="0.00" color="blue" from="282807212#3" to="39495337#2" via="282807212#4 282807212#5 282807212#6 282807212#7 39495337#0 39495337#1" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea12" begin="0.00" color="blue" from="51962391#0" to="51962391#11" via="51962391#2 51962391#3 51962391#4 51962391#5 51962391#6 51962391#7 51962391#8 51962391#9 51962391#10" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea13" begin="0.00" color="blue" from="51962504#1" to="51961455#10" via="51962504#2 51962504#3 51962504#4 51962504#5 51962504#7 51962504#8 51961455#8 51961455#9" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea14" begin="0.00" color="blue" from="282807212#3" to="39495337#2" via="282807212#4 282807212#5 282807212#6 282807212#7 39495337#0 39495337#1" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea15" begin="0.00" color="blue" from="51962391#0" to="51962391#11" via="51962391#2 51962391#3 51962391#4 51962391#5 51962391#6 51962391#7 51962391#8 51962391#9 51962391#10" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea16" begin="0.00" color="blue" from="51961869#1" to="53960640#6" via="51961869#2 51961869#3 51961869#4 51961869#5 51961869#6 51961869#7 51961869#8 51961869#9 51961869#10 53960640#0 53960640#1 53960640#2 53960640#3" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea19_1" begin="0.00" color="blue" from="51962391#0" to="51962391#11" via="51962391#2 51962391#3 51962391#4 51962391#5 51962391#6 51962391#7 51962391#8 51962391#9 51962391#10" end="7200.00" vehsPerHour="12.00"/>
+    <flow id="flow_linea19_2" begin="0.00" color="blue" from="51962504#1" to="51961455#10" via="51962504#2 51962504#3 51962504#4 51962504#5 51962504#6 51962504#7 51962504#8 51961455#8 51961455#9" end="7200.00" vehsPerHour="12.00"/>
+</routes>
