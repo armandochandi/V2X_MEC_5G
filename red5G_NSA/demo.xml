@@ -1,0 +1,15 @@
+<config>
+    <!-- Asigna a las interfaces de eNB y UE una direccion de tipo 10.x.x.x -->
+    <!-- especialmente a los UE creados dinamicamente -->
+    <interface hosts="eNodeB*" names="cellular" address="10.x.x.x" netmask="255.0.0.0"/>
+    <interface hosts="car*" names="cellular" address="10.x.x.x" netmask="255.0.0.0"/>
+    <interface hosts="ue*" names="cellular" address="10.x.x.x" netmask="255.0.0.0"/>
+    
+    
+    <!-- Asigna direcciones IP 192.168.x.x a todas las demas interfaces -->
+    <interface hosts="**" address="192.168.x.x" netmask="255.255.255.0"/>
+    
+
+    <!-- Todos los UE con capacidad D2D (Device to Device) se incorporan al grupo multidifusion --> 
+    <multicast-group hosts="car*" interfaces="cellular" address="224.0.0.10"/>
+</config>

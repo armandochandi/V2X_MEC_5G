@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<analysis version="2">
+    <inputs>
+        <input pattern="/Ibarra_MEC5G_V2X/simulations/red5G_NSA/results/MEC_Conectividad-Dual-Data-UL/0.vec"/>
+        <input pattern="/Ibarra_MEC5G_V2X/simulations/red5G_NSA/results/MEC_Conectividad-Dual-Data-UL/0.sca"/>
+    </inputs>
+    <charts/>
+</analysis>
