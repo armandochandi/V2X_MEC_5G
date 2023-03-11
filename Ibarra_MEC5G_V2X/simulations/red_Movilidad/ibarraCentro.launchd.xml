@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-    <copy file="ibarraCentro.net.xml" />
-    <copy file="ibarraCentro.rou.xml" />
-    <copy file="ibarraCentro.poly.xml" />
-    <copy file="ibarraCentro.sumo.cfg" type="config" />
-</launch>
-
